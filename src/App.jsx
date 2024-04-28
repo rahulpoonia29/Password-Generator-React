@@ -40,7 +40,10 @@ function App() {
         <>
             {/* <SavePass savePassRef={savePassRef}></SavePass> */}
             <div
-                style={{ backgroundImage: "url(./bg.png)" }}
+                style={{
+                    backgroundImage: "url(/bg.svg)",
+                    backgroundRepeat: "repeat",
+                }}
                 className="bg-cover w-full flex flex-col items-center justify-center"
             >
                 <div className="px-10 py-6 pb-10 flex flex-col items-center gap-8 bg-gray-900 rounded-md bg-clip-padding backdrop-filter backdrop-blur-2xl bg-opacity-10 border border-gray-100">
